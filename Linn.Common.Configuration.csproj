@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Description>Utility library for loading configuration data</Description>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AssemblyName>Linn.Common.Configuration</AssemblyName>
+		<PackageId>Linn.Common.Configuration</PackageId>
+		<Version>3.0.0</Version>
+	  <Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8"	 />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.8"	 />
+		<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.8"	 />
+		<PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="9.0.8" />
+	</ItemGroup>
+</Project>
